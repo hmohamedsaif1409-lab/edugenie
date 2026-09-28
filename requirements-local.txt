@@ -1,0 +1,6 @@
+# Optional dependencies for EXPLANATION_PROVIDER=local.
+# This downloads and runs MBZUAI/LaMini-Flan-T5-783M locally.
+-r requirements.txt
+torch>=2.3,<3
+transformers>=4.45,<5
+sentencepiece>=0.2,<1
